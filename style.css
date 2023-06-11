@@ -1,0 +1,288 @@
+body {
+    margin: 0;
+}
+
+.nav-bar {
+    position: relative;
+    z-index: 1;
+}
+
+.middle-nav {
+    padding-left: 350px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6F6AF7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    font-family: Delius Unicase;
+    font-weight: 700;
+    font-size: 30px;
+    float: left;
+    padding-left: 50px;
+}
+
+li {
+    float: left;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 47.43px;
+    padding: 14px 16px;
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #625dd9;
+}
+
+.btn:hover {
+    background-color: #3d34d9;
+    border: none;
+}
+
+.next-btn:hover {
+    background-color: #404040;
+}
+
+.box1:hover {
+    background-color: #8a96f2;
+}
+
+.box2:hover {
+    background-color: #6843d9;
+}
+
+.box3:hover {
+    background-color: #b273d9;
+}
+
+.box4:hover {
+    background-color: #404040;
+}
+
+.arrow-down {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 4px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.buttonIn {
+    width: 314px;
+    height: 57px;
+    position: relative;
+}
+
+input {
+    border-style: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    outline: none;
+    height: 35px;
+    border-radius: 20px;
+}
+
+button {
+    position: absolute;
+    border-radius: 20px;
+    right: 5px;
+    border: none;
+    top: 9px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: white;
+    transform: translateX(2px);
+}
+
+.hamburger {
+    float: right;
+    padding-right: 50px;
+}
+
+.banner-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 150px;
+    width: 100%;
+}
+
+textarea {
+    margin-top: 16px;
+    width: 700px;
+    height: 300px;
+    font-family: DM Sans;
+    color: #6F7373;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 20px;
+    border-style: hidden;
+    background-color: #E5D8FF;
+}
+
+.social-group {
+    float: right;
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+    top: -100px;
+    right: 7px;
+}
+
+.sticky {
+    position: sticky;
+    top: 190px;
+}
+
+.chatbot {
+    position: fixed;
+    right: 25px;
+    bottom: 20px;
+}
+
+.container {
+    box-shadow: 0px 9px 31px 0px #00000066;
+    border-radius: 12px;
+    width: 200px;
+    height: 90px;
+    margin-left: 30px;
+}
+
+.box1 {
+    background-color: #929DFF;
+}
+
+.box2 {
+    background-color: #734CF2;
+}
+
+.box3 {
+    background-color: #D288FF;
+}
+
+.box4 {
+    background-color: #000000;
+}
+
+.card-section {
+    position: absolute;
+    bottom: 65px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.boxtext {
+    text-align: left;
+    padding-left: 20px;
+    font-family: DM Sans;
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+.information-section {
+    position: relative;
+    top: 400px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    padding-bottom: 50px;
+    
+}
+
+.hide{
+    display:none;
+}
+
+.blue-container {
+    display: inline-flex;
+    border-radius: 15px;
+    background-color: #483EFF;
+    width: 60%;
+}
+
+.btn {
+    margin-top: 20px;
+    height: 80px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    border: solid 2px white;
+    position: relative;
+    top: 50px;
+    background-color: #483EFF;
+    left: 50px;
+}
+
+.btn-text {
+    font-size: 20px;
+    font-family: DM Sans;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.btn:active {
+    background-color: #BCE0F6;
+    box-shadow: 0px 6px 35px 0px #00000063;
+    border: none;
+    color: black;
+}
+
+.info-container {
+    border-radius: 10px;
+    background-color: white;
+    height: 350px;
+    width: 560px;
+    position: relative;
+    top: 27px;
+    left: 90px;
+}
+
+.info-text {
+    margin-left: 25px;
+    font-family: Inter;
+    font-size: 25px;
+    color: #04285A;
+    font-weight: 700;
+}
+
+.info-text2 {
+    margin-left: 40px;
+    color: #04285A;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.next-btn {
+    position: relative;
+    top: 80px;
+    right: -430px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: black;
+    font-family: Roboto;
+    font-size: 15px;
+}
